@@ -1,4 +1,4 @@
-# SISOP-1-2026-IT-002
+# SISOP-4-2026-IT-002
 ## Soal 1
 Pada soal ini diminta untuk membuat sebuah filesystem virtual menggunakan FUSE (Filesystem in Userspace). Filesystem virtual ini digunakan untuk melakukan mount terhadap folder asli bernama `amba_files` ke sebuah mount point bernama `mnt`. Seluruh file yang berada di dalam `amba_files` harus dapat diakses melalui folder mount tersebut tanpa memindahkan file aslinya.
 Selain itu, program juga diminta untuk membuat file virtual tambahan bernama `tujuan.txt`. File ini tidak boleh ada secara fisik di dalam folder `amba_files`, melainkan dibuat langsung oleh program FUSE saat filesystem diakses. Dengan demikian, user akan melihat seolah-olah file tersebut benar-benar ada pada filesystem.
